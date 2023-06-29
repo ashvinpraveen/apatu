@@ -1,2 +1,0 @@
-# apatu
-APATU Hackathon
