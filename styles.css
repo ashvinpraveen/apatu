@@ -1,4 +1,5 @@
-/* styles.css is this page*/
+/* This is the CSS file for the website. It is linked to the HTML file. */
+
 
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
@@ -6,30 +7,65 @@ body {
     padding: 0;
     background-color: #101011;
   }
+
   
-  header {
-    background-color: #101011;
-    padding: 20px;
+/* This is the CSS for the header (navigation bar) of the website.
+
+The navigation bar is separated into 2 divisions, called left-nav and right-nav; these are inclosed by a division called .header*/
+
+.header {
+    background-color:
+    #141414;
+    display: flex;
+    padding: 0px 40px;
+    justify-content: space-between;
     align-items: center;
-    align-content: center;
+    align-self: stretch;
+    box-shadow: 1px 1px 10px 0px #000000;  
+    
+    position:fixed;
+    top:0;
+    width:100%;
   }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-  }
-  
-  nav ul li a {
+
+/* Left.nav settings - */
+
+.left-nav {
+  background-color: #33333300;
+
+  list-style-type:none;
+  margin: 0px;
+  padding: 0;
+
+}
+.left-nav li a {
+  text-decoration:none;
+  color:#fff;
+  } 
+
+
+/* Right.nav settings - */
+
+.right-nav {
+  background-color: #8d6a6a00;
+  margin: 0px; 
+}
+
+.right-nav ul li{ 
+
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.right-nav ul li a {
     color: #fff;
     text-decoration: none;
-    margin-right: 10px;
   }
-  
+
+
+/* This is the CSS for the header (navigation bar) of the website. */
+
+
 p {
     color: #F0F0F0;
     font-size: 1em;
