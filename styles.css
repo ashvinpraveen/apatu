@@ -90,15 +90,7 @@ p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-button {
-  color: var(--main-bg-color);
-  background-color: var(--primary-color);
-  border: none;
-  padding: 5px 20px;
-  border-radius: 3px;
-  cursor:pointer;
 
-}
 
 main {
   color: var(--main-text-color);
@@ -106,10 +98,11 @@ main {
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: var(--main-bg-color);
+  color: var(--secondary-text-color);
   padding: 10px;
-  text-align: center;
+  margin: 30px;
+  text-align: left;
 }
 
 
@@ -130,6 +123,11 @@ The navigation bar is separated into 2 divisions, called left-nav and right-nav;
     position:fixed;
     top:0;
     width:100%;
+
+    font-size: 0.6em;
+    font-family: 'Krona One', Work Sans, Geneva, Verdana, sans-serif, sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Krona+One')
+
   }
 
 /* Left.nav settings - */
@@ -190,7 +188,7 @@ margin: 20px;
   margin: 60px 10px;
   align-items: center;
   justify-content: center;
-  border: #444444 solid 1px;
+  border: #444444 solid 0px;
 }
 
 
@@ -200,7 +198,7 @@ margin: 20px;
   margin: 10px 20px;
   align-items: center;
   justify-content: center;
-  border: #444444 solid 1px;
+  border: #444444 solid 0px;
   
 }
 
@@ -209,7 +207,7 @@ margin: 20px;
   flex: 33.33%;
   padding: 20px 20px;
   margin: 0px 30px 20px 0px;
-  border: #444444 solid 1px;
+  border: #444444 solid 0px;
   border-radius: 10px;
   background-color: var(--secondary-bg-color);
 
