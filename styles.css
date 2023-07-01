@@ -48,28 +48,6 @@ button:active {
   color: var(--button-active-text-color);
 }
 
-/* Defining my design system - layout
-
-The layout is separated into 2 divisions, called .header and .main; these are inclosed by a division called .container*/
-
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-self: stretch;
-  justify-content: flex-start;
-  margin-top: 100px;
-}
-
-.main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-self: stretch;
-  justify-content: flex-start;
-  margin-top: 100px;
-}
-
 
 
 /*Defining my design system - text
@@ -158,7 +136,7 @@ The navigation bar is separated into 2 divisions, called left-nav and right-nav;
 .left-nav {
   list-style-type:none;
   margin: 0px;
-  padding: 0;
+  padding: 0px;
 
 }
 .left-nav li a {
@@ -170,12 +148,13 @@ The navigation bar is separated into 2 divisions, called left-nav and right-nav;
 /* Right.nav settings - */
 
 .right-nav {
-  margin: 0px; 
+  margin: 10px 60px; 
 }
 
 .right-nav ul li{ 
 
   display: inline-block;
+
   padding: 0px 10px;
 }
 
@@ -185,8 +164,24 @@ The navigation bar is separated into 2 divisions, called left-nav and right-nav;
   }
 
 
-/* This is the top of the site */
+/* This is the hero section of the site */
 
+/* Hero container */
 
+.row {
+display : flex;
+}
 
+.twocolumn {
+  flex: 50%;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.threecolumn {
+  flex: 33.33%;
+  padding: 20px;
+}
 
