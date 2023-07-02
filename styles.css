@@ -175,12 +175,13 @@ The navigation bar is separated into 2 divisions, called left-nav and right-nav;
 /* Hero container */
 
 .adventures {
-  color: var(--tertiary-color);
+  color: linear-gradient (135deg, #7A54FF 100%, #47FFB7 100%);
   margin: -30px 0px 0px 0px;
   text-align: left;
 }
 
 .row {
+
 display : flex;
 align-items: top;
 margin: 20px;
@@ -225,4 +226,5 @@ margin: 20px;
   background-color: var(--secondary-bg-color);
 
 }
+
 
